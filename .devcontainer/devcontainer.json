@@ -1,0 +1,16 @@
+{
+	"name": "youthcongress-ui",	
+	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.20",
+	"remoteUser": "root",
+
+	"postCreateCommand": "/bin/sh /workspaces/ui/.devcontainer/setup.sh",
+	
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Ionic.ionic",
+				"Angular.ng-template"
+			]
+		}
+	}
+}
